@@ -30,6 +30,7 @@
             <id>my-nexus-snapshot</id>
             <url>http://nexus.xxx.com/content/repositories/snapshots/</url>
         </snapshotRepository>
+
     </distributionManagement>
 
     <scm>

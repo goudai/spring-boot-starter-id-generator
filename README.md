@@ -8,6 +8,9 @@
 
 <br /> wget https://github.com/goudai/spring-boot-starter-id-generator/archive/spring-boot-starter-id-generator-1.0.0.zip
 
+### Install or deploy to private Repository
+
+* mvn clean install or mvn clean deploy
 
 ## id generator
 
@@ -16,7 +19,7 @@
 <dependency>
     <groupId>io.goudai</groupId>
     <artifactId>spring-boot-starter-id-generator-zookeeper</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 
 ```
