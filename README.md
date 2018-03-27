@@ -6,18 +6,18 @@
 
 ## Download
 
-wget 
+<br /> wget https://github.com/goudai/spring-boot-starter-id-generator/archive/spring-boot-starter-id-generator-1.0.0.zip
 
 
 ## id generator
 
 * add dependency to maven
 ```xml
-    <dependency>
-        <groupId>io.goudai</groupId>
-        <artifactId>spring-boot-starter-id-generator-zookeeper</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
+<dependency>
+    <groupId>io.goudai</groupId>
+    <artifactId>spring-boot-starter-id-generator-zookeeper</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 
 ```
 
@@ -30,7 +30,6 @@ goudai:
     generator:
       zookeeper:
         zookeeper-servers: ${ZOO_SERVERS:localhost:2181}
-      
 ``` 
 ```java
 public class XxxController {
