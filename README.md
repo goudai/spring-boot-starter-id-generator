@@ -17,7 +17,7 @@
 * add dependency to maven
 ```xml
 <dependency>
-    <groupId>io.goudai</groupId>
+    <groupId>io.github.goudai</groupId>
     <artifactId>spring-boot-starter-id-generator-zookeeper</artifactId>
     <version>1.0.0</version>
 </dependency>
