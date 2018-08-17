@@ -27,6 +27,7 @@
     <url>https://qingmu.io</url>
 
     <name>spring-boot-starter-id-generator</name>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -36,19 +37,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-    <distributionManagement>
-        <repository>
-            <id>my-nexus-releases</id>
-            <url>http://nexus.xxx.com/content/repositories/releases/</url>
-        </repository>
-
-        <snapshotRepository>
-            <id>my-nexus-snapshot</id>
-            <url>http://nexus.xxx.com/content/repositories/snapshots/</url>
-        </snapshotRepository>
-
-    </distributionManagement>
 
     <scm>
         <connection>scm:git:https://github.com/goudai/spring-boot-starter-id-generator.git</connection>
@@ -85,11 +73,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.0.2</version>
-                <!--<configuration>-->
-                <!--<archive>-->
-                <!--<manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>-->
-                <!--</archive>-->
-                <!--</configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
