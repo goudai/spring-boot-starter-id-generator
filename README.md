@@ -4,10 +4,6 @@
 
 # Usage
 
-## Download
-
-<br /> wget https://github.com/goudai/spring-boot-starter-id-generator/archive/spring-boot-starter-id-generator-1.0.0.zip
-
 ### Install or deploy to private Repository
 
 * mvn clean install or mvn clean deploy
