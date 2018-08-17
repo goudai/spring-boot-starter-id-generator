@@ -3,7 +3,7 @@
 
     <groupId>io.goudai</groupId>
     <artifactId>spring-boot-starter-id-generator</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <modules>
         <module>spring-boot-starter-id-generator-zookeeper</module>
     </modules>
@@ -54,7 +54,7 @@
         <connection>scm:git:https://github.com/goudai/spring-boot-starter-id-generator.git</connection>
         <developerConnection>scm:git:https://github.com/goudai/spring-boot-starter-id-generator.git</developerConnection>
         <url>scm:git:https://github.com/goudai/spring-boot-starter-id-generator.git</url>
-        <tag>HEAD</tag>
+        <tag>spring-boot-starter-id-generator-1.0.1</tag>
     </scm>
 
 
