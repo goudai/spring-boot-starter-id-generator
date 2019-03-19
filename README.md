@@ -20,7 +20,7 @@
 
 ```
 
- * using on spring boo 
+ * using on spring boot
  
 ```yaml
 # application.yml
